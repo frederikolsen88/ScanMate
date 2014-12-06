@@ -1,0 +1,15 @@
+﻿<Window x:Class="ScanMate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ScanMate" Height="299" Width="280" ResizeMode="NoResize" Icon="Resources/scanmate.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="imgPDF" Margin="10,52,10,45" Source="Resources\application_pdf.png" Drop="imgPDF_Drop" AllowDrop="True" Stretch="None" ToolTip="Træk og slip en PDF-fil hertil."/>
+        <CheckBox x:Name="chkBoxDelSrc" Content="Slet _originalfil" Margin="92,231,92,0" HorizontalAlignment="Center" Height="16" VerticalAlignment="Top"/>
+        <RadioButton x:Name="btnSplitPDF" Content="_Split PDF" Margin="10,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Center" IsChecked="True"/>
+        <RadioButton x:Name="btnReversePageOrder" Content="_Vend siderækkefølge" Margin="10,31,10,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
