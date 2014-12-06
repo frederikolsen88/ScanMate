@@ -9,4 +9,4 @@ Furthermore, the scanner is fed documents in reverse, meaning that scanning mult
 
 ScanMate attempts to circumvent these problems by allowing the user to drag and drop a single PDF document into the application. Using the iTextSharp library, the PDF is then either split up into a series of single-page documents, or a copy with reversed page order is written. The user may also opt to delete the source file.
 
-I am releasing this under the GNU GPL license, as I can easily imagine that other office environments with entry-level network scanners could use something like this to make the daily work a bit more manageable.
+I am releasing this first skeletal version of ScanMate under the GNU GPL license, as I can easily imagine that other office environments with entry-level network scanners could use something like this to make the daily work a bit more manageable.
